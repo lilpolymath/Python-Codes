@@ -1,3 +1,0 @@
-def solution(N):
-    for num in range(N+1):
-        if num%3:
