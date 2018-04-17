@@ -15,6 +15,6 @@ def solution(N):
         else:
             print(num)
 
-solution(4)
+solution(100)
 
 # print(solution(int(input("Range : "))))
