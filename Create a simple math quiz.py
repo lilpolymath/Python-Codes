@@ -1,22 +1,3 @@
-# ************************                                                         
-** A Simple Math Quiz **                                                         
-************************                                                         
-1. Addition                                                                      
-2. Subtraction                                                                   
-3. Multiplication                                                                
-4. Integer Division                                                              
-5. Exit                                                                          
-------------------------                                                         
-Enter your choice: 1                                                             
-Enter your answer                                                                
-6 + 5 = 11                                                                       
-Correct.                                                                         
-Enter your choice: 5                                                             
-Exit the quiz.                                                                   
-------------------------                                                         
-You answered 1 questions with 1 correct.                                         
-Your score is 100.0%. Thank you.
-
 import random  
   
 def display_intro():  
