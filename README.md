@@ -3,7 +3,7 @@ A repo containing my Python codes. More classifications would be made later.
 This would contain solutions to various questions, Algorithms, OOP codes and miscellaneous codes. Time Complexity would be reduced to the barest minimum.
 Please note that this is just the beginning don't get disappointed if your hopes are not dashed(smiles)
 
-# Smallest Commom Multiple Explanation
+# Smallest Common Multiple Explanation
 * Question
 Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
