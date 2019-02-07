@@ -1,9 +1,12 @@
-while True:
-    print('Program to check for pronic number')
-    n=int(input('Enter the number:'))
-    x=(-1+((1+4*n)**(1/2)))/2
-    a=int(x)
-    if a==x:
-        print ('Yes, the number is pronic')
-    else: 
-        print('Sorry, the number is not pronic')
+from math import sqrt
+
+def pronic():
+    a = int(input("Enter the number to check : "))
+    y = int(sqrt(a))
+    x = y + 1
+    if (a == x*y):
+        print("The Numbers are {} and {}" .format(x, y))
+    else:
+        print("{} is not a Pronic number." .format(a))
+
+pronic()
