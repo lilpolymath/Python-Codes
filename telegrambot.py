@@ -13,7 +13,7 @@ def pic(bot, update):
 	bot.send_photo(chat_id = chat_id, photo = url)
 
 def main():
-	updater = Updater("731370184:AAFwaddEXzRtOcTNI07XtTzIYaIUcppiYYI")
+	updater = Updater("") # Your Telegram API key goes here
 	dp = updater.dispatcher
 	dp.add_handler(CommandHandler('pic', pic))
 	updater.start_polling()
